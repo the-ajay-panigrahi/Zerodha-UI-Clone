@@ -34,6 +34,10 @@
     width: 300px;
     height: 300px;
   }
+
+  #clients img {
+    width: 70%;
+  }
 }
 @media screen and (min-width: 601px) and (max-width: 1200px) {
   header {
@@ -83,5 +87,9 @@
   .right > img {
     width: 400px;
     height: 400px;
+  }
+
+  #clients img {
+    width: 50%;
   }
 }
