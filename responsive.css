@@ -22,6 +22,18 @@
     object-fit: contain;
     margin-block: 40px;
   }
+
+  section {
+    flex-direction: column;
+    width: 100%;
+    padding-inline: 30px;
+    text-align: center;
+  }
+
+  .right > img {
+    width: 300px;
+    height: 300px;
+  }
 }
 @media screen and (min-width: 601px) and (max-width: 1200px) {
   header {
@@ -59,5 +71,17 @@
 
   #main-cont button {
     font-size: 18px;
+  }
+
+  section {
+    flex-direction: column;
+    width: 100%;
+    padding-inline: 30px;
+    text-align: center;
+  }
+
+  .right > img {
+    width: 400px;
+    height: 400px;
   }
 }
