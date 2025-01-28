@@ -187,7 +187,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
- 
+
   gap: 30px;
 }
 
@@ -243,4 +243,40 @@ section {
 .anotherside .card p {
   font-size: 10px;
   color: #666666;
+}
+
+/* ek aur section... */
+#ekaur {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  margin: 50px auto 80px;
+}
+
+section #img img {
+  width: 350px;
+  height: 250px;
+  object-fit: contain;
+}
+
+#ekaur .oneside h3 {
+  margin-bottom: 20px;
+}
+
+#ekaur .oneside p {
+  margin-bottom: 10px;
+}
+
+#ekaur .oneside a {
+  margin-bottom: 25px;
+}
+
+/* cta */
+section #main-cont {
+  text-align: center;
+}
+
+section #main-cont h2 {
+  font-size: 32px;
 }
