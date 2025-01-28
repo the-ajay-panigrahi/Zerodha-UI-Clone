@@ -38,6 +38,27 @@
   #clients img {
     width: 70%;
   }
+
+  #random-section {
+    width: 100%;
+    padding-inline: 20px;
+    flex-wrap: wrap;
+  }
+
+  .oneside {
+    width: 80%;
+  }
+
+  .anotherside {
+    width: 80%;
+  }
+
+  .anotherside .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 @media screen and (min-width: 601px) and (max-width: 1200px) {
   header {
@@ -91,5 +112,19 @@
 
   #clients img {
     width: 50%;
+  }
+
+  #random-section {
+    width: 100%;
+    padding-inline: 20px;
+    flex-wrap: wrap;
+  }
+
+  .oneside {
+    width: 40%;
+  }
+
+  .anotherside {
+    width: 55%;
   }
 }

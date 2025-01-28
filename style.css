@@ -179,3 +179,68 @@ section {
 #clients img {
   width: 45%;
 }
+
+/* Random Section */
+#random-section {
+  max-width: 1100px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  gap: 30px;
+}
+
+.oneside {
+  width: 40%;
+}
+
+.oneside h3 {
+  color: #424242;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.oneside p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  font-weight: 400;
+  line-height: 2;
+  color: #424242e8;
+}
+
+.oneside span img {
+  width: 25px;
+  /* filter: invert(1); */
+  color: #387ed1;
+  margin-top: 5px;
+  padding-inline: 6px;
+}
+
+.oneside a {
+  color: #387ed1;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.anotherside {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 60%;
+  gap: 20px;
+}
+
+.anotherside .card img {
+  width: 85px;
+  height: 62px;
+  object-fit: contain;
+}
+
+.anotherside .card p {
+  font-size: 10px;
+  color: #666666;
+}
