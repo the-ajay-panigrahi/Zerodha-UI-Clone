@@ -5,6 +5,11 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+  width: 100vw;
+}
+
 /* Navbar Section */
 header {
   border-bottom: 1px solid #cccccc83;
@@ -23,12 +28,20 @@ nav img[alt="logo"] {
   width: 150px;
   height: 30px;
   object-fit: contain;
+  cursor: pointer;
 }
 
 nav li img {
   width: 20px;
   height: 20px;
   object-fit: contain;
+}
+
+#burger {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  display: none;
 }
 
 header nav ul {
@@ -46,4 +59,51 @@ header nav ul li:hover {
   color: rgb(35, 131, 255);
   transition: all 0.3s;
   cursor: pointer;
+}
+
+/* Main Section */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-inline: 10px;
+}
+main img {
+  width: 960px;
+  height: 404px;
+  object-fit: contain;
+  margin-block: 40px;
+}
+
+#main-cont h2 {
+  font-size: 44px;
+  color: #424242;
+  font-weight: 500;
+  margin-bottom: 13px;
+}
+
+#main-cont p {
+  font-size: 20px;
+  color: #424242;
+  margin-bottom: 30px;
+  line-height: 1.75;
+}
+
+#main-cont button {
+  background-color: #387ed1;
+  color: #fff;
+  border-radius: 3px;
+  border: none;
+  padding: 12px 30px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#main-cont button:hover {
+  background-color: #000000;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.4s;
 }

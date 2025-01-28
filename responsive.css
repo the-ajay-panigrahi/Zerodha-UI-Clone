@@ -1,0 +1,63 @@
+@media screen and (max-width: 600px) {
+  header {
+    padding-inline: 20px;
+  }
+
+  nav {
+    width: 100%;
+    padding-inline: 20px;
+  }
+
+  header nav ul {
+    display: none;
+  }
+
+  #burger {
+    display: block;
+  }
+
+  main img {
+    width: 400px;
+    height: 200px;
+    object-fit: contain;
+    margin-block: 40px;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+  header {
+    padding-inline: 20px;
+  }
+
+  nav {
+    width: 100%;
+    padding-inline: 20px;
+  }
+
+  header nav ul {
+    display: none;
+  }
+
+  #burger {
+    display: block;
+  }
+
+  main img {
+    width: 600px;
+    height: 200px;
+    object-fit: contain;
+    margin-block: 40px;
+  }
+
+  #main-cont h2 {
+    font-size: 40px;
+    margin-bottom: 13px;
+  }
+
+  #main-cont p {
+    font-size: 18px;
+  }
+
+  #main-cont button {
+    font-size: 18px;
+  }
+}
